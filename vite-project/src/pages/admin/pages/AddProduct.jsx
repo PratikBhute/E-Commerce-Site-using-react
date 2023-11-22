@@ -63,8 +63,8 @@ function AddProduct() {
                         </textarea>
                     </div>
                     <div className=' flex justify-center mb-3'>
-                    <button onClick={addProduct} className="flex mx-auto w-full justify-center   text-white bg-yellow-400 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-500 rounded text-lg">
-                  {loading ? <TailSpin   height={25} color="white" /> : "Login"}
+                    <button onClick={addProduct} className="flex mx-auto w-full justify-center   text-white bg-yellow-600 border-0 py-2 px-8 focus:outline-none hover:bg-yellow-400 rounded text-lg">
+                  {loading ? <TailSpin   height={25} color="white" /> : "Add Product"}
                 </button>
                         
                     </div>

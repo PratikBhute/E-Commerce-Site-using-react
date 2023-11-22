@@ -54,7 +54,7 @@ const AllProducts = () => {
                         radius="9"
                         color="green" />
                 </div>) : (<div className="flex flex-wrap -m-4">
-                    {product.filter((obj) => obj.title.toLowerCase().includes(searchkey)).filter((obj) => obj.category.toLowerCase().includes(filterType)).filter((obj) => obj.price.toLowerCase().includes(filterPrice)).slice(0, 8).map((item, index1) => {
+                    {product.filter((obj) => obj.title.toLowerCase().includes(searchkey)).filter((obj) => obj.category.toLowerCase().includes(filterType)).filter((obj) => obj.price.toLowerCase().includes(filterPrice)).map((item, index1) => {
                         const { title, price, imageUrl, id } = item;
                         return (
                             <div className="p-4 md:w-1/4  drop-shadow-lg " >

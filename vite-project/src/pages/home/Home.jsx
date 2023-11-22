@@ -15,13 +15,6 @@ function Home() {
 
   console.log(cartItem)
 
-  const addCart = () => {
-    dispatch(addToCart("shirt"));
-  }
-
-  const deleteCart = () => {
-    dispatch(deleteFromCart("shirt"));
-  }
   return (
     <Layout>
       <HeroSection />
